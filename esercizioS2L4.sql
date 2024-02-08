@@ -44,3 +44,6 @@ WHERE J.[Tipo Impiego] = @TipoImpiego;
 --m
 SELECT avg(Eta) AS [Eta Media] FROM IMPIEGATI;
 
+--PROCEDURE
+--a
+EXEC Save_Impiegato @Cognome='Vanni', @Nome='Giorgio', @IDImpiego=5;
